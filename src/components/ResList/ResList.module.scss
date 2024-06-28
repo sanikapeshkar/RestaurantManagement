@@ -1,0 +1,35 @@
+@import '../../styles/utils.scss';
+
+.ResList {
+  background-color: rgb(255, 255, 255);
+  max-height: 100vh;
+  overflow-y: scroll;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow:01px 1px 4px 2px gray;
+
+  .ResEach {
+    padding: 1rem;
+
+    .Feedbacklist {
+      list-style: none;
+      padding: 1rem;
+
+      .FeedbackEach {
+        padding: 0.5rem;
+        border: thin solid gray;
+        border-radius: 5px;
+
+        .edit{
+          width:15%;
+          @include button(rgb(77, 255, 49));
+        }
+        .delete{
+          width:15%;
+          @include button(rgb(255, 72, 72));
+        }
+      }
+    }
+  }
+}

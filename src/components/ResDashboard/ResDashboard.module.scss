@@ -1,0 +1,18 @@
+.ResDashboard{
+padding:1rem;
+text-align: center;
+h2{
+    font-size: 46px;
+    color:rgb(157, 103, 2);
+}
+
+    .dashboardMain{
+        display: flex;
+        flex-direction: row;
+        gap:2rem;
+        flex-wrap: wrap;
+        margin:2rem;
+        align-items: center;
+       justify-content: center;
+    }
+}

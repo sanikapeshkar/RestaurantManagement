@@ -1,0 +1,26 @@
+.UserList {
+  background-color: white;
+  max-height: 100vh;
+  overflow-y: scroll;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow:01px 1px 4px 2px gray;
+  border-radius: 5px;
+
+  .UserEach {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+
+    .FeedbackList {
+      list-style: none;
+
+      .FeedbackEach {
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: thin solid gray;
+      }
+    }
+  }
+}
